@@ -1,6 +1,7 @@
 # logger
-Record logs to the local log file 记录日志到本地的日志文件中
+A small tool to record local log 
 
+一个记录本地日志的小工具
 
 	Instructions: 
   
