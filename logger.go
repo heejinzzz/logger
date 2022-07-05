@@ -46,7 +46,7 @@ func backup_file(file *os.File) {
 
 	// 用备份时的时间作为备份日志的文件名
 	now := time.Now().Format("20060102150405.000000")
-	backup_name := Backup_path + "\\" + now + ".log"
+	backup_name := Backup_path + "/" + now + ".log"
 	new_file, err := os.OpenFile(backup_name, os.O_APPEND|os.O_RDWR|os.O_CREATE, 0777)
 	if err != nil {
 		fmt.Println(err)
